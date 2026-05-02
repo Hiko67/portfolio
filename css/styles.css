@@ -33,3 +33,13 @@ ul {
 ul li {
     margin: 10px 0;
 }
+.cert {
+    text-align: center;
+    margin: 20px;
+}
+
+.cert img {
+    width: 300px;
+    max-width: 100%;
+    cursor: pointer;
+}
