@@ -5,31 +5,72 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
 
-        <nav>
+        <nav class="nav-bar">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="techstack.html">Tech Stack</a>
-            <a href="certifications.html">Certifications</a>
+            <a href="certification.html" class="active">Certifications</a>
         </nav>
 
-        <h1>Certifications</h1>
+        <main class="page-section">
 
-        <div class="cert">
-            <a href="https://via.placeholder.com/600x400" target="_blank">
-                <img src="https://via.placeholder.com/300x200" alt="Certificate Placeholder">
-            </a>
-            <p>
-                <a href="https://via.placeholder.com/600x400" target="_blank">
-                    HTML Certification (View Verification)
-                </a>
-            </p>
-        </div>
+            <p class="page-label">Achievements</p>
+
+            <h1>Certifications</h1>
+
+            <section class="cert-grid">
+
+                <div class="cert-card">
+
+                    <a href="images/certificates/python-essentials.png" target="_blank">
+                        <img src="images/certificates/python-essentials.png" alt="Python Essentials 1 Certificate">
+                    </a>
+
+                    <p>
+                        <a href="https://www.credly.com/badges/757a79ac-5c3d-4aa9-9618-554e86e09292/public_url" target="_blank">
+                            Python Essentials 1 - View Verification
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="cert-card">
+
+                    <a href="images/certificates/java-it-specialist.png" target="_blank">
+                        <img src="images/certificates/java-it-specialist.png" alt="IT Specialist Java Certificate">
+                    </a>
+
+                    <p>
+                        <a href="https://www.credly.com/badges/861c3d2f-12cf-4bd5-adc6-0164b18ef39d/public_url" target="_blank">
+                            IT Specialist Java - View Verification
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="cert-card">
+
+                    <a href="images/certificates/software-engineering.png" target="_blank">
+                        <img src="images/certificates/software-engineering.png" alt="Software Engineering Certificate">
+                    </a>
+
+                    <p>
+                        <a href="#" target="_blank">
+                            Software Engineering - Saylor Academy
+                        </a>
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
 
     </body>
 </html>

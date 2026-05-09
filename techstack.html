@@ -1,43 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 
-<body>
+    <body>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="techstack.html">Tech Stack</a>
-        <a href="certification.html">Certifications</a>
-    </nav>
+        <nav class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="techstack.html" class="active">Tech Stack</a>
+            <a href="certification.html">Certifications</a>
+        </nav>
 
-    <h1>Tech Stack</h1>
+        <main class="page-section">
 
-    <section class="stack">
+            <p class="page-label">My Tools</p>
 
-        <div class="card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="50">
-            <p>C</p>
-        </div>
-        
-        <div class="card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50">
-            <p>Java</p>
-        </div>
-        
-        <div class="card">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50">
-            <p>SQL</p>
-        </div>
+            <h1>Tech Stack</h1>
 
-    </section>
+            <section class="tech-grid">
 
-</body>
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C logo">
+                    <p>C Language</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo">
+                    <p>Java</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL logo">
+                    <p>SQL</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML logo">
+                    <p>HTML</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS logo">
+                    <p>CSS</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code logo">
+                    <p>VS Code</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo">
+                    <p>Git</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo">
+                    <p>GitHub</p>
+                </div>
+            
+                <div class="tech-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="Oracle logo">
+                    <p>Oracle</p>
+                </div>
+            
+            </section>
+
+        </main>
+
+    </body>
 </html>
