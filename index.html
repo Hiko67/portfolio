@@ -5,54 +5,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
 
-        <nav>
-            <a href="index.html">Home</a>
+        <nav class="nav-bar">
+            <a href="index.html" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="techstack.html">Tech Stack</a>
             <a href="certification.html">Certifications</a>
         </nav>
-        <section class="main">
 
-            <div class="profile-card">
-                <img src="images/profile.jpg.jpg" alt="profile">
-        
-                <h1>James Andrei Magpali</h1>
-        
-                <p class="role">BSIT Student | Aspiring Web Developer</p>
-        
-                <p>
-                    A second-year BSIT student currently studying at St. Dominic College of Asia. 
-                    Focused on learning web development and programming. 
-                    Enjoys creating simple websites and continuously improving coding skills through practice.
-                </p>
+        <main class="home-section">
+
+            <p class="status">Available for projects</p>
+
+            <img src="images/profile.jpg" alt="profile" class="profile-image">
+
+            <h1>James Andrei Magpali</h1>
+
+            <p class="role">BSIT Student | Aspiring Web Developer</p>
+
+            <p class="intro">
+                A second-year BSIT student currently learning web development and programming.
+                Focused on building simple, responsive, and clean websites while improving coding skills.
+            </p>
+
+            <div class="button-group">
+                <a href="techstack.html" class="primary-button">View Tech Stack</a>
+                <a href="certification.html" class="secondary-button">View Certificates</a>
             </div>
-        
-            <div class="side-panel">
-        
-                <div class="box">
-                    <h3>Education</h3>
-                    <p>
-                        <strong>BS Information Technology</strong><br>
-                        St. Dominic College of Asia
-                    </p>
-                </div>
-        
-                <div class="box">
-                    <h3>Goals</h3>
-                    <p>
-                        To become a web developer and build real-world projects.
-                    </p>
-                </div>
-        
-            </div>
-        
-        </section>
+
+        </main>
 
     </body>
 </html>
