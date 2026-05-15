@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Home | James Andrei Magpali</title>
 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,35 +13,63 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    Swal.fire({
+        title: "Welcome!",
+        text: "Welcome to my portfolio.",
+        icon: "success",
+        confirmButtonColor: "#1e3a8a"
+    });
+
+</script>
+
     <body>
 
         <div class="background-dots"></div>
 
         <nav class="nav-bar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="techstack.html">Tech Stack</a>
-            <a href="certification.html">Certifications</a>
-            <a href="contact.html">Contact</a>
-        </nav>
 
-        <main class="home-layout" id="home">
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icon">
+        ☰
+    </label>
+
+    <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+<a href="techstack.html">Tech Stack</a>
+<a href="certification.html">Certifications</a>
+<a href="contact.html">Contact</a>
+    </div>
+
+</nav>
+
+        <main class="home-layout">
 
             <section class="home-text">
 
                 <p class="small-intro">HI, MY NAME IS</p>
 
                 <h1>
-                    <span class="name-highlight">James Andrei Magpali</span>
+                    <span class="name-highlight">
+                        James Andrei Magpali
+                    </span>
                 </h1>
 
-                <p class="role">Aspiring Cybersecurity Professional  </p>
+                <p class="role">
+                    Aspiring Cybersecurity Professional
+                </p>
 
                 <p class="intro">
-                    A second-year BSIT student currently learning web development, networking,
-                    databases, and mobile application development. Passionate about building
-                    responsive websites and improving programming skills through projects and practice.
+                    A second-year BSIT student currently learning web development,
+                    networking, databases, and mobile application development.
+                    Passionate about building responsive websites and improving
+                    programming skills through projects and practice.
                 </p>
+
 
             </section>
 
