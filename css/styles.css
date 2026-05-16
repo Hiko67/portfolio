@@ -1052,10 +1052,60 @@ h1 {
     }
 }
 
-
 @media (max-width: 480px) {
     .cert-card img {
         background-color: #ffffff;
         padding: 6px !important;
+    }
+}
+/* JAVA CERTIFICATE FIT LIKE OTHER CERTIFICATES */
+
+.java-cert {
+    background-color: #ffffff;
+    padding: 6px !important;
+    object-fit: contain !important;
+    object-position: center !important;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    .java-cert {
+        height: 190px !important;
+        max-width: 310px !important;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .java-cert {
+        width: 100%;
+        height: auto !important;
+        max-height: 190px;
+        padding: 6px !important;
+    }
+}
+
+/* Phone */
+@media (max-width: 480px) {
+    .java-cert {
+        width: 100%;
+        height: auto !important;
+        max-height: 180px;
+        padding: 6px !important;
+    }
+}
+/* PHONE JAVA CERTIFICATE FIX */
+
+@media (max-width: 480px) {
+    .cert-card img.java-cert {
+        width: 100%;
+        height: auto !important;
+        max-height: 180px;
+        object-fit: contain !important;
+        object-position: center !important;
+        background-color: #ffffff;
+        padding: 6px !important;
+        border: 3px solid rgba(56, 189, 248, 0.45);
+        border-radius: 16px;
     }
 }
